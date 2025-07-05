@@ -1,0 +1,73 @@
+{
+	"layer": "top",
+    
+    "modules-left": [
+	"sway/workspaces",
+	"sway/language"
+    ],
+
+    "modules-center": [
+	"clock"
+    ],
+
+    "modules-right": [
+	"tray",
+	"memory",
+	"cpu",
+	"pulseaudio"
+    ],
+
+    "sway/workspaces": {
+	"all-outputs": true,
+    "disable-scroll": true,
+    "current-only": false,
+    "persistent-workspaces": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        },
+    }, 
+
+/*	    "workspaces": {
+        "all-outputs": true,
+        "disable-scroll": true,
+        "persistent_workspaces": {
+	    "*": [1, 2, 3, 4]
+        },
+    },
+*/ 
+
+    "sway/language": {
+        /* "format": "{} 󰌌", */
+    "format": "󰌌 {}",
+	"tooltip": false
+    },
+
+    "pulseaudio": {
+        "format": "󰕾 {volume}%",
+        "format-muted": "󰖁 Muted",
+        "scroll-step": 5,
+        "on-click": "pavucontrol",
+        "tooltip": false
+    },
+
+    "cpu": {
+	"interval": 5,
+        "format": " {usage:1}%"
+    },
+
+    "memory": {
+	"interval": 5,
+	"format": " {percentage}%"
+    },
+
+    "tray": {
+	"icon-size": 20
+    },
+
+    "clock": {
+    /* "format": "{:%H:%M | %d-%m}" */
+    "format": "{:%H:%M | %A, %d %B}"
+    }
+}

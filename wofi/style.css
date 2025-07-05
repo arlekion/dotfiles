@@ -1,0 +1,50 @@
+#window, #outer-box, #input, #inner-box, #entry {
+    color: white;
+}
+
+#window {
+    background-color: rgba(2,16,51,0.5);
+    border: 2px solid #3584e4;
+    border-radius: 0px;
+    padding: 0px
+}
+
+#outer-box {
+    margin: 2px;
+}
+
+#inner-box {
+    margin: 15px;
+    padding: 5px 0px;
+}
+
+#input {
+    margin-bottom: 0px;
+    background-color: rgba(2,16,51,0.65);
+    border: none;
+    padding: 15px;
+    border-radius: 0px;
+    font-size: 15px;
+}
+
+#scroll {
+    margin: 0px;
+}
+
+#text {
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#entry {
+	padding: 5px 15px;
+}
+
+#entry:selected {
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: #3584e4;
+}
