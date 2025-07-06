@@ -13,31 +13,37 @@ window#waybar {
 #cpu,
 #workspaces,
 #pulseaudio,
+#clipboard,
 #language {
 	padding: 0px 10px;
-	background-color: #3584e4;
+	background-color: rgba(15, 45, 95, 0.5);
 	color: white;
-	margin: 2px 5px;
-	border-radius: 10px;
+	margin: 0px 5px;
+	border: 3px solid #3584e4;
+	border-radius: 0px;
+}
+
+#pulseaudio {
+	margin: 0px 10px 0px 5px
 }
 
 #tray {
 	background-color: transparent;
 	color: white;
-	margin: 5px 5px;
+	margin: 0px 5px;
 }
 
 #workspaces {
-	padding: 0px 6px;
-	margin: 2px 5px;
+	padding: 0px 0px;
+	margin: 0px 5px 0px 10px;
 }
 
 #workspaces button {
-	background-color: #3584e4;
-	border-radius: 9999px;
+	background-color: transparent;
+	border-radius: 0px;
 	margin: 0px 0px;
-	color: black;
-	padding: 5px 6px;
+	color: white;
+	padding: 4px 6px;
 	border: none;
 	box-shadow: none;
 	transition: background-color 0.2s ease;
@@ -54,6 +60,7 @@ window#waybar {
 #workspaces button.focused {
 	background-color: #3584e4;
 	color: white;
+	border-radius: 0px;
 }
 
 #workspaces button.urgent {
