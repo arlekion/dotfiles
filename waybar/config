@@ -7,13 +7,13 @@
     ],
 
     "modules-center": [
-    "clock"
+    "clock",
     ],
 
     "modules-right": [
     "tray",
-    "memory",
-    "cpu",
+  /*  "memory",
+    "cpu", */
     "pulseaudio"
     ],
 
