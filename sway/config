@@ -127,7 +127,7 @@ client.unfocused          #1c4a8c  #1c4a8c  #1c4a8c  #1c4a8c  #1c4a8c
 client.urgent             #ffffff  #ffffff  #ffffff  #ffffff  #ffffff
 
 gaps inner 10px
-seat * xcursor_theme Adwaita 24
+seat * xcursor_theme macOS 24
 
 exec_always swaybg -i ~/Pictures/Wallpapers.png -m fit
 
