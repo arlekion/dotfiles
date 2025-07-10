@@ -13,6 +13,10 @@ include /etc/sway/config-vars.d/*
 output DP-3 resolution 1920x1080@165Hz position 0,0
 input * repeat_delay 190
 
+blur enable
+blur_xray disable
+blur_radius 10
+
 bindsym $mod+Return exec $term
 bindsym $mod+Shift+q kill
 
