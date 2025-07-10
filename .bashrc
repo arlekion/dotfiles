@@ -113,3 +113,5 @@ if ! shopt -oq posix; then
   fi
 fi
 alias nathan=sudo
+
+export PATH=$PATH:/home/arleka/.spicetify
