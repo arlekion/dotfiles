@@ -5,7 +5,9 @@ set $up k
 set $right l
 
 set $term kitty
-
+for_window [app_id="copyq"] floating enable
+exec_always copyq &
+bindsym $mod+v exec copyq toggle
 set $menu wofi --show drun
 
 include /etc/sway/config-vars.d/*
