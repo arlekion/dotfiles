@@ -29,7 +29,7 @@ bindsym $mod+d exec $menu
 
 floating_modifier $mod normal
 
-bindsym $mod+Shift+z reload
+bindsym $mod+Shift+z exec swaymsg reload
 bindsym $mod+Shift+c exec pkill waybar && waybar
 bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 
