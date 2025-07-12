@@ -14,8 +14,11 @@ set $menu wofi --show drun
 include /etc/sway/config-vars.d/*
 include ~/.config/sway/swayfx
 output DP-3 resolution 1920x1080@165Hz position 0,0
-input * repeat_delay 190
-
+input * {
+	repeat_delay 190
+	pointer_accel 0
+	accel_profile "flat"
+}
 bindsym $mod+Return exec $term
 bindsym $mod+Shift+q kill
 
