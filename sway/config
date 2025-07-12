@@ -22,9 +22,8 @@ input * {
     xkb_layout us,ru
     xkb_options grp:alt_shift_toggle
 }
-
-bindsym Print exec grim -g "$(slurp)" ~/Pictures/Screenshots/screen-"$(date +%s)".png
-
+#bindsym Print exec grim -g "$(slurp)" ~/Pictures/Screenshots/screen-"$(date +%s)".png
+bindsym Print exec /home/arleka/.config/sway/flameshot.sh
 bindsym $mod+d exec $menu
 
 floating_modifier $mod normal
